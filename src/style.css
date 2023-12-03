@@ -1,0 +1,46 @@
+.collapse{
+    justify-content: right;
+}
+
+body{
+    background: #f0eef1;
+}
+
+.back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_bar{
+    width: 25%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.explain{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .input_bar{
+        width: 100%;
+
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item{
+        display: block;
+    }
+}
+
